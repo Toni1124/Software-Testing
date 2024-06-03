@@ -54,13 +54,13 @@ Move是一种用于编写安全智能合约的编程语言，最初由Facebook�
 1. Move自带的测试框架
 
     Move支持单元测试，用于验证非测试代码是否以预期的方式运行。具体来说，可以通过`#[test]`，`#[test_only]` 这两种注释，将模块或模块成员标注为测试用，使用 `#[expected_failure]`将测试注释为“将会发生错误”。被`#[test]`和`#[test_only]`注释的部分只有在测试时才会被编译，不会被部署到链上也不会在链上被执行。测试部分通常先进行一些设置，然后运行想要测试的代码，最后检查结果是否是我们所期望的。
-  ![替代文字](move_test.png)
+  ![替代文字](fig/move_test.png)
 
 2. Move CLI
    
     Move提供的命令行工具Move CLI（Command Line Interface）可以用于执行Move代码中的单元测试。Move CLI 会提供每个测试的执行结果（通过、失败或超时），如果测试用例失败，将报告失败的位置以及导致失败的函数名。除此之外，该工具还可以提供单元测试的指令覆盖率的信息。
-  ![替代文字](cli1.png)
-  ![替代文字](cli2.png)
+  ![替代文字](fig/cli1.png)
+  ![替代文字](fig/cli2.png)
 
 3. Sui Fuzzer
    
@@ -94,7 +94,7 @@ Move是一种用于编写安全智能合约的编程语言，最初由Facebook�
     使用SDK建立一个本地网络，进行集成测试
 
 #### 上述框架/工具总结：
-  ![替代文字](tool-sum.png)
+  ![替代文字](fig/tool-sum.png)
   - Move语言在开发时从语法和工具等方面对Move程序的测试、分析进行了支持
   - 区块链平台也进行了相应的支持
     - Sui提供了测试相关的Move库
@@ -107,16 +107,16 @@ Move是一种用于编写安全智能合约的编程语言，最初由Facebook�
 选取Github上一些受欢迎的Move项目，使用上述工具对其进行分析/测试，对实验结果进行分析、讨论。
 
 我们选取Github上五个项目用于实验，包括：Aubrium, PancakeSwap, Origin-Byte, Movescriptions 和 Sea Protocol。
-![替代文字](proj.png)
+![替代文字](fig/proj.png)
 
 #### 2. 实验过程与结果
 我们对这些项目里的每个库利用Move CLI进行单元测试，并且统计这些单元测试在字节码指令上的覆盖率。单元测试通过率指的是通过的单元测试数量/单元测试总数量。需要注意，只有所有单元测试通过才可以计算指令覆盖率（这是使用的测试工具决定的，只有所有测试都通过了，测试工具才能统计结果）。
 
-![替代文字](aptos1.png)
+![替代文字](fig/aptos1.png)
 
-![替代文字](sui1.png)
+![替代文字](fig/sui1.png)
 
-![替代文字](sui2.png)
+![替代文字](fig/sui2.png)
 
 从上述结果可以看出，所有项目共计17个库中仅有10个库能通过所有的单元测试，且测试的指令覆盖率较低，仅有4个库的测试覆盖率大于50%。
 
@@ -136,6 +136,7 @@ Move是一种用于编写安全智能合约的编程语言，最初由Facebook�
   - 基于上述研究的结果，针对Move中的常见漏洞开发新的分析工具。
   - 优化现有工具，例如，可以从更多角度对Move程序的测试充分性进行评估。
 
+### 仓库介绍
 `movescription`，`nft-protocol`，`pancake-contracts-move`，`seaprotocol`，`xyk-amm-move`为实验选取的Move项目。我们对其依赖、代码进行了修改以适应测试需求。测试结果存放在`experiment-results`中，`experiment-results/test_logs`为测试信息，`experiment-results/coverage`存放覆盖率信息。
 
 
