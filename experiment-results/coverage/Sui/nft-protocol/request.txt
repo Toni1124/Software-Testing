@@ -1,0 +1,18 @@
++-------------------------+
+| Move Coverage Summary   |
++-------------------------+
+Module e2c7a6843cb13d9549a9d2dc1c266b572ead0b4b9f090e7c3c46de2714102b43::ob_request
+>>> % Module coverage: 0.00
+Module e2c7a6843cb13d9549a9d2dc1c266b572ead0b4b9f090e7c3c46de2714102b43::request
+>>> % Module coverage: 30.42
+Module e2c7a6843cb13d9549a9d2dc1c266b572ead0b4b9f090e7c3c46de2714102b43::borrow_request
+>>> % Module coverage: 0.00
+Module e2c7a6843cb13d9549a9d2dc1c266b572ead0b4b9f090e7c3c46de2714102b43::frozen_pub
+>>> % Module coverage: 0.00
+Module e2c7a6843cb13d9549a9d2dc1c266b572ead0b4b9f090e7c3c46de2714102b43::transfer_request
+>>> % Module coverage: 0.00
+Module e2c7a6843cb13d9549a9d2dc1c266b572ead0b4b9f090e7c3c46de2714102b43::withdraw_request
+>>> % Module coverage: 0.00
++-------------------------+
+| % Move Coverage: 12.58  |
++-------------------------+

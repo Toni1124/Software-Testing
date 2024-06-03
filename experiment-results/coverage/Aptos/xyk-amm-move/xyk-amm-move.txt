@@ -1,0 +1,19 @@
+INCLUDING DEPENDENCY AptosFramework
+INCLUDING DEPENDENCY AptosStdlib
+INCLUDING DEPENDENCY MoveStdlib
+BUILDING Aubrium
+Running Move unit tests
+[ PASS    ] 0xfc845c20a3d7b9e8478c675f14357646782e80c916a96a0627664b6e3c87a89d::xyk_amm::end_to_end
+Test result: OK. Total tests: 1; passed: 1; failed: 0
++-------------------------+
+| Move Coverage Summary   |
++-------------------------+
+Module fc845c20a3d7b9e8478c675f14357646782e80c916a96a0627664b6e3c87a89d::xyk_amm
+>>> % Module coverage: 42.79
++-------------------------+
+| % Move Coverage: 42.79  |
++-------------------------+
+Please use `aptos move coverage -h` for more detailed source or bytecode test coverage of this package
+{
+  "Result": "Success"
+}

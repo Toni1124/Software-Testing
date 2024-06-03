@@ -1,0 +1,34 @@
++-------------------------+
+| Move Coverage Summary   |
++-------------------------+
+Module f5de9e9d7a718c10964a8e5ce32de33c591979e2b2e76a1e58dcc9e6f74480df::utils
+>>> % Module coverage: 81.40
+Module f5de9e9d7a718c10964a8e5ce32de33c591979e2b2e76a1e58dcc9e6f74480df::fee
+>>> % Module coverage: 89.17
+Module f5de9e9d7a718c10964a8e5ce32de33c591979e2b2e76a1e58dcc9e6f74480df::sea
+>>> % Module coverage: 0.00
+Module f5de9e9d7a718c10964a8e5ce32de33c591979e2b2e76a1e58dcc9e6f74480df::mining
+>>> % Module coverage: 3.38
+Module f5de9e9d7a718c10964a8e5ce32de33c591979e2b2e76a1e58dcc9e6f74480df::events
+>>> % Module coverage: 89.91
+Module f5de9e9d7a718c10964a8e5ce32de33c591979e2b2e76a1e58dcc9e6f74480df::escrow
+>>> % Module coverage: 87.45
+Module f5de9e9d7a718c10964a8e5ce32de33c591979e2b2e76a1e58dcc9e6f74480df::amm
+>>> % Module coverage: 72.25
+Module f5de9e9d7a718c10964a8e5ce32de33c591979e2b2e76a1e58dcc9e6f74480df::router
+>>> % Module coverage: 80.21
+Module f5de9e9d7a718c10964a8e5ce32de33c591979e2b2e76a1e58dcc9e6f74480df::price
+>>> % Module coverage: 94.92
+Module f5de9e9d7a718c10964a8e5ce32de33c591979e2b2e76a1e58dcc9e6f74480df::grid
+>>> % Module coverage: 100.00
+Module f5de9e9d7a718c10964a8e5ce32de33c591979e2b2e76a1e58dcc9e6f74480df::market
+>>> % Module coverage: 78.25
+Module f5de9e9d7a718c10964a8e5ce32de33c591979e2b2e76a1e58dcc9e6f74480df::aggregator
+>>> % Module coverage: 93.33
++-------------------------+
+| % Move Coverage: 74.01  |
++-------------------------+
+Please use `aptos move coverage -h` for more detailed source or bytecode test coverage of this package
+{
+  "Result": "Success"
+}

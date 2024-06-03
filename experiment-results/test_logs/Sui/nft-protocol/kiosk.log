@@ -1,0 +1,10 @@
+INCLUDING DEPENDENCY Request
+INCLUDING DEPENDENCY Permissions
+INCLUDING DEPENDENCY Utils
+INCLUDING DEPENDENCY Pseudorandom
+INCLUDING DEPENDENCY Sui
+INCLUDING DEPENDENCY MoveStdlib
+BUILDING Kiosk
+Running Move unit tests
+[ PASS    ] 0x95a441d389b07437d00dd07e0b6f05f513d7659b13fd7c5d3923c7d9d847199b::ob_kiosk::assert_version_test
+Test result: OK. Total tests: 1; passed: 1; failed: 0

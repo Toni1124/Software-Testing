@@ -1,0 +1,78 @@
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY Sui
+BUILDING Critbit
+Running Move unit tests
+[ FAIL    ] 0x5fb957b59e6b093c17eb3f0ca0a3e8762530244f39f738bd356dbdd43ed9230e::test_critbit_u64::insert_0
+[ FAIL    ] 0x5fb957b59e6b093c17eb3f0ca0a3e8762530244f39f738bd356dbdd43ed9230e::test_critbit_u64::insert_1
+[ FAIL    ] 0x5fb957b59e6b093c17eb3f0ca0a3e8762530244f39f738bd356dbdd43ed9230e::test_critbit_u64::remove
+
+Test failures:
+
+Failures in 0x5fb957b59e6b093c17eb3f0ca0a3e8762530244f39f738bd356dbdd43ed9230e::test_critbit_u64:
+
+┌── insert_0 ──────
+│ error[E11001]: test failure
+│    ┌─ /home/pku/.move/https___github_com_MystenLabs_sui_git_mainnet-v1.19.1/crates/sui-framework/packages/sui-framework/sources/tx_context.move:78:16
+│    │
+│ 78 │     native fun derive_id(tx_hash: vector<u8>, ids_created: u64): address;
+│    │                ^^^^^^^^^
+│    │                │
+│    │                INTERNAL TEST ERROR: Unexpected Verification Error
+│ Test was not expected to error, but it gave a MISSING_DEPENDENCY (code 1021) error originating in the module 0000000000000000000000000000000000000000000000000000000000000002::tx_context rooted here
+│    │                In this function in 0x2::tx_context
+│ 
+│ 
+│ stack trace
+│ 	object::new(/home/pku/.move/https___github_com_MystenLabs_sui_git_mainnet-v1.19.1/crates/sui-framework/packages/sui-framework/sources/object.move:156)
+│ 	table::new(/home/pku/.move/https___github_com_MystenLabs_sui_git_mainnet-v1.19.1/crates/sui-framework/packages/sui-framework/sources/table.move:37)
+│ 	critbit_u64::new(/home/pku/move_empirical/proj/nft-protocol/contracts/critbit/sources/critbit_u64.move:57)
+│ 	test_critbit_u64::insert_0(/home/pku/move_empirical/proj/nft-protocol/contracts/critbit/tests/critbit_u64.move:24)
+│ 
+└──────────────────
+
+
+┌── insert_1 ──────
+│ error[E11001]: test failure
+│    ┌─ /home/pku/.move/https___github_com_MystenLabs_sui_git_mainnet-v1.19.1/crates/sui-framework/packages/sui-framework/sources/tx_context.move:78:16
+│    │
+│ 78 │     native fun derive_id(tx_hash: vector<u8>, ids_created: u64): address;
+│    │                ^^^^^^^^^
+│    │                │
+│    │                INTERNAL TEST ERROR: Unexpected Verification Error
+│ Test was not expected to error, but it gave a MISSING_DEPENDENCY (code 1021) error originating in the module 0000000000000000000000000000000000000000000000000000000000000002::tx_context rooted here
+│    │                In this function in 0x2::tx_context
+│ 
+│ 
+│ stack trace
+│ 	object::new(/home/pku/.move/https___github_com_MystenLabs_sui_git_mainnet-v1.19.1/crates/sui-framework/packages/sui-framework/sources/object.move:156)
+│ 	table::new(/home/pku/.move/https___github_com_MystenLabs_sui_git_mainnet-v1.19.1/crates/sui-framework/packages/sui-framework/sources/table.move:37)
+│ 	critbit_u64::new(/home/pku/move_empirical/proj/nft-protocol/contracts/critbit/sources/critbit_u64.move:57)
+│ 	test_critbit_u64::insert_1(/home/pku/move_empirical/proj/nft-protocol/contracts/critbit/tests/critbit_u64.move:101)
+│ 
+└──────────────────
+
+
+┌── remove ──────
+│ error[E11001]: test failure
+│    ┌─ /home/pku/.move/https___github_com_MystenLabs_sui_git_mainnet-v1.19.1/crates/sui-framework/packages/sui-framework/sources/tx_context.move:78:16
+│    │
+│ 78 │     native fun derive_id(tx_hash: vector<u8>, ids_created: u64): address;
+│    │                ^^^^^^^^^
+│    │                │
+│    │                INTERNAL TEST ERROR: Unexpected Verification Error
+│ Test was not expected to error, but it gave a MISSING_DEPENDENCY (code 1021) error originating in the module 0000000000000000000000000000000000000000000000000000000000000002::tx_context rooted here
+│    │                In this function in 0x2::tx_context
+│ 
+│ 
+│ stack trace
+│ 	object::new(/home/pku/.move/https___github_com_MystenLabs_sui_git_mainnet-v1.19.1/crates/sui-framework/packages/sui-framework/sources/object.move:156)
+│ 	table::new(/home/pku/.move/https___github_com_MystenLabs_sui_git_mainnet-v1.19.1/crates/sui-framework/packages/sui-framework/sources/table.move:37)
+│ 	critbit_u64::new(/home/pku/move_empirical/proj/nft-protocol/contracts/critbit/sources/critbit_u64.move:57)
+│ 	test_critbit_u64::remove(/home/pku/move_empirical/proj/nft-protocol/contracts/critbit/tests/critbit_u64.move:177)
+│ 
+└──────────────────
+
+Test result: FAILED. Total tests: 3; passed: 0; failed: 3
+{
+  "Error": "Move unit tests failed"
+}

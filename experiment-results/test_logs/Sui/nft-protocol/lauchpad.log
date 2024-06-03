@@ -1,0 +1,168 @@
+INCLUDING DEPENDENCY Kiosk
+INCLUDING DEPENDENCY Request
+INCLUDING DEPENDENCY Permissions
+INCLUDING DEPENDENCY Originmate
+INCLUDING DEPENDENCY Utils
+INCLUDING DEPENDENCY Pseudorandom
+INCLUDING DEPENDENCY Sui
+INCLUDING DEPENDENCY MoveStdlib
+BUILDING Launchpad
+Running Move unit tests
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::flat_fee::test_calc_fee
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_delegation::add_and_remove_delegate
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::mint_and_sell::inventory_proxy_mint
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_english_auction::bid_nft
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_fixed_price::buy_nft
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_limited_fixed_price::buy_nft
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_dutch_auction::bid_nft
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_rebate::test_buy_rebate
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::flat_fee::test_precision_
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_delegation::add_delegates
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::mint_and_sell::listing_proxy_mint
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_english_auction::bid_whitelisted_nft
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_fixed_price::buy_whitelisted_nft
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_limited_fixed_price::buy_nft_limit
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_rebate::test_set_rebate
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_dutch_auction::bid_whitelisted_nft
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_listing::fail_accept_listing_request_as_fake_marketplace_admin
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_delegation::delegate
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_fees::listing_fee
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_fixed_price::change_price
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_english_auction::claim_nft
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_rebate::test_try_set_rebate_not_admin
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_limited_fixed_price::buy_whitelisted_nft
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_dutch_auction::cancel_auction
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_listing::fail_access_to_inventory_as_fake_admin
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_delegation::fail_add_delegates
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_fees::marketplace_default_fee
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_fixed_price::create_market
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_rebate::test_try_withdraw_funds_not_admin
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_english_auction::conclude_auction
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_limited_fixed_price::change_limit
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_listing::fail_add_nft_inventory_as_fake_admin
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_dutch_auction::cancel_bid
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_whitelist_with_cert::create_whitelist
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_fees::standalone_listing
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_fixed_price::try_buy_no_supply
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_rebate::test_withdraw_funds
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_english_auction::create_market
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_limited_fixed_price::change_price
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_listing::fail_add_venue_as_fake_admin
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_whitelist_with_cert::fail_spoof_whitelist
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_dutch_auction::cancel_bid_does_not_exist
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_fixed_price::try_buy_not_live
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_whitelist_with_set::checks_in_whitelist_if_authorized
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_english_auction::try_bid_insufficient_coin
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_limited_fixed_price::create_market
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_listing::fail_create_venue_as_fake_listing_admin
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_dutch_auction::cancel_while_not_live
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_fixed_price::try_buy_whitelisted_nft
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_whitelist_with_set::create_whitelist
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_english_auction::try_bid_not_live
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_limited_fixed_price::try_buy_nft_limit
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_listing::fail_create_warehouse_as_fake_listing_admin
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_fixed_price::try_change_price
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_whitelist_with_set::fail_add_addrs_to_whitelist_if_not_authorized
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_dutch_auction::conclude_auction
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_english_auction::try_bid_too_low
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_listing::fail_request_to_join_marketplace_as_fake_listing_admin
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_limited_fixed_price::try_buy_nft_zero_limit
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_whitelist_with_set::fail_add_whitelist_if_not_authorized
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_english_auction::try_bid_whitelisted_nft
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_listing::it_fails_start_listing_before_start_time
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_dutch_auction::conclude_auction_not_all_sold
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_limited_fixed_price::try_buy_no_supply
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_whitelist_with_set::fail_check_in_whitelist_if_not_authorized
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_english_auction::try_claim_nft_unconcluded
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_listing::it_works_with_permissionless_marketplace_and_start_time
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_limited_fixed_price::try_buy_not_live
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_dutch_auction::create_market
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_listing::test_fail_add_custom_fee_as_fake_marketplace_when_none
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_english_auction::try_claim_nft_wrong_sender
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_limited_fixed_price::try_buy_whitelisted_nft
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_dutch_auction::try_bid_lower_than_reserve
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_english_auction::try_conclude_auction
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_listing::test_fail_add_custom_fee_as_fake_marketplace_when_some
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_limited_fixed_price::try_change_decreased_limit
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_dutch_auction::try_bid_not_live
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_listing::test_fail_turn_sale_off_as_fake_admin
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_english_auction::try_conclude_auction_twice
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_limited_fixed_price::try_change_limit
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_dutch_auction::try_bid_whitelisted_nft
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_listing::test_fail_turn_sale_on_as_fake_admin
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_limited_fixed_price::try_change_price
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_dutch_auction::try_cancel_auction
+[ TIMEOUT ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_warehouse::deposit_warehouse
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_warehouse::init_warehouse
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_dutch_auction::try_conclude_auction
+[ TIMEOUT ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_warehouse::redeem_at_index
+[ TIMEOUT ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_warehouse::redeem_at_index_last
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_warehouse::redeem_at_index_within_last
+[ TIMEOUT ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_warehouse::redeem_at_index_within_last_chunk
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_warehouse::redeem_at_index_within_last_only
+[ TIMEOUT ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_warehouse::redeem_at_index_within_last_only_chunk
+[ TIMEOUT ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_warehouse::redeem_pseudorandom
+[ PASS    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_warehouse::redeem_with_id
+[ TIMEOUT ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_warehouse::redeem_with_id_chunk
+[ FAIL    ] 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_warehouse::try_redeem_with_id_chunk
+
+Test failures:
+
+Failures in 0xc74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::test_warehouse:
+
+┌── deposit_warehouse ──────
+│ Test timed out
+└──────────────────
+
+
+┌── redeem_at_index ──────
+│ Test timed out
+└──────────────────
+
+
+┌── redeem_at_index_last ──────
+│ Test timed out
+└──────────────────
+
+
+┌── redeem_at_index_within_last_chunk ──────
+│ Test timed out
+└──────────────────
+
+
+┌── redeem_at_index_within_last_only_chunk ──────
+│ Test timed out
+└──────────────────
+
+
+┌── redeem_pseudorandom ──────
+│ Test timed out
+└──────────────────
+
+
+┌── redeem_with_id_chunk ──────
+│ Test timed out
+└──────────────────
+
+
+┌── try_redeem_with_id_chunk ──────
+│ error[E11001]: test failure
+│     ┌─ /home/pku/.move/https___github_com_MystenLabs_sui_git_mainnet-v1.19.1/crates/sui-framework/packages/sui-framework/sources/dynamic_field.move:158:31
+│     │
+│ 158 │     public(friend) native fun hash_type_and_key<K: copy + drop + store>(parent: address, k: K): address;
+│     │                               ^^^^^^^^^^^^^^^^^
+│     │                               │
+│     │                               Test did not error as expected. Expected test to abort with code 4 originating in the module c74531639fadfb02d30f05f37de4cf1e1149ed8d23658edd089004830068180b::warehouse but instead it ran out of gas in the module 0000000000000000000000000000000000000000000000000000000000000002::dynamic_field rooted here
+│     │                               In this function in 0x2::dynamic_field
+│ 
+│ 
+│ stack trace
+│ 	dynamic_object_field::add(/home/pku/.move/https___github_com_MystenLabs_sui_git_mainnet-v1.19.1/crates/sui-framework/packages/sui-framework/sources/dynamic_object_field.move:35)
+│ 	warehouse::deposit_nft(./sources/launchpad/warehouse.move:123)
+│ 	test_warehouse::deposit(./tests/warehouse.move:260)
+│ 	test_warehouse::deposit_many(./tests/warehouse.move:271)
+│ 	test_warehouse::try_redeem_with_id_chunk(./tests/warehouse.move:242)
+│ 
+└──────────────────
+
+Test result: FAILED. Total tests: 97; passed: 89; failed: 8

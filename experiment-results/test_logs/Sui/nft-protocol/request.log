@@ -1,0 +1,10 @@
+INCLUDING DEPENDENCY Permissions
+INCLUDING DEPENDENCY Utils
+INCLUDING DEPENDENCY Pseudorandom
+INCLUDING DEPENDENCY Sui
+INCLUDING DEPENDENCY MoveStdlib
+BUILDING Request
+Running Move unit tests
+[ PASS    ] 0xe2c7a6843cb13d9549a9d2dc1c266b572ead0b4b9f090e7c3c46de2714102b43::request::fails_to_spoof_cap
+[ PASS    ] 0xe2c7a6843cb13d9549a9d2dc1c266b572ead0b4b9f090e7c3c46de2714102b43::request::test_confirm
+Test result: OK. Total tests: 2; passed: 2; failed: 0

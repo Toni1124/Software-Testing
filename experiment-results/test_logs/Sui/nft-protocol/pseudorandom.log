@@ -1,0 +1,5 @@
+INCLUDING DEPENDENCY Sui
+INCLUDING DEPENDENCY MoveStdlib
+BUILDING Pseudorandom
+Running Move unit tests
+Test result: OK. Total tests: 0; passed: 0; failed: 0

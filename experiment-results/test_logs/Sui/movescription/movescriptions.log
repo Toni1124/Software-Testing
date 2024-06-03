@@ -1,0 +1,87 @@
+INCLUDING DEPENDENCY CetusClmm
+INCLUDING DEPENDENCY MoveSTL
+INCLUDING DEPENDENCY IntegerMate
+INCLUDING DEPENDENCY Sui
+INCLUDING DEPENDENCY MoveStdlib
+BUILDING SmartInscription
+Running Move unit tests
+[debug] 100
+[ PASS    ] 0x0::movescription_object_test::movescription_burn_incentive
+[ PASS    ] 0x0::content_type::test_bcs_type_name
+[ PASS    ] 0x0::metadata::test_text_metadata
+[ PASS    ] 0x0::name_factory::test_calculate_name_fee
+[ PASS    ] 0x0::tick_name::test_is_tick_name_valid
+[ PASS    ] 0x0::mint_ratio_50_factory_scenario_test::test_whole_process
+[ PASS    ] 0x0::name_factory_scenario_test::test_whole_process
+[ PASS    ] 0x0::movescription_object_test::movescription_to_coin_test
+[ PASS    ] 0x0::content_type::test_is_image
+[ PASS    ] 0x0::string_util::test_contains_any
+[ PASS    ] 0x0::string_util::test_index_of
+[ PASS    ] 0x0::string_util::test_is_lowercase
+[ PASS    ] 0x0::string_util::test_is_uppercase
+[ PASS    ] 0x0::string_util::test_last_index_of
+[debug] 0x714a63a0dba6da4f017b42d5d0fb78867f18bcde904868e51d951a5a6f5b7f57::i32::I32 {
+  bits: 4294523660
+}
+[debug] 0x714a63a0dba6da4f017b42d5d0fb78867f18bcde904868e51d951a5a6f5b7f57::i32::I32 {
+  bits: 443636
+}
+[ PASS    ] 0x0::string_util::test_substring
+[ PASS    ] 0x0::movescription_to_amm::min_max_tick
+[ PASS    ] 0x0::string_util::test_to_lowercase
+[ PASS    ] 0x0::tick_record_df_test_module1::test_remove_success
+[ PASS    ] 0x0::string_util::test_to_uppercase
+[ PASS    ] 0x0::type_util::test_module_id
+[ PASS    ] 0x0::type_util::test_module_id_failed
+[ PASS    ] 0x0::tick_record_df_test_module2::test_add_failure
+[ PASS    ] 0x0::type_util::test_struct_name
+[ PASS    ] 0x0::movescription_object_test::movescription_to_coin_test_remain
+[ PASS    ] 0x0::content_type::test_is_text
+[ PASS    ] 0x0::type_util::test_struct_name_failed
+[ PASS    ] 0x0::tick_factory::test_calculate_tick_fee
+[ PASS    ] 0x0::tick_record_df_test_module2::test_borrow_df
+[ PASS    ] 0x0::movescription_object_test::test_burn_by_witness
+[ PASS    ] 0x0::mint_get_factory_scenario_test::test_whole_process
+[debug] 4294523696
+[debug] 443600
+[ PASS    ] 0x0::movescription_to_amm::test_check_postion_tick_range
+[ PASS    ] 0x0::tick_record_df_test_module2::test_borrow_mut_df_failure
+[ PASS    ] 0x0::movescription_object_test::test_burn_failure
+[ PASS    ] 0x0::tick_factory_scenario_test::test_whole_process
+[ PASS    ] 0x0::tick_record_df_test_module2::test_remove_failure
+[ PASS    ] 0x0::movescription_object_test::test_check_tick
+[ PASS    ] 0x0::movescription_object_test::test_check_tick_failed
+[debug] 8249634733248593564
+[debug] 0x714a63a0dba6da4f017b42d5d0fb78867f18bcde904868e51d951a5a6f5b7f57::i32::I32 {
+  bits: 4294951200
+}
+[ PASS    ] 0x0::movescription_to_amm::test_price_to_sqrt_price_x64
+[ PASS    ] 0x0::movescription_object_test::test_lock_and_burn
+[ PASS    ] 0x0::epoch_bus_factory_scenario_test::test_whole_process
+[ PASS    ] 0x0::movescription_object_test::test_lock_and_merge
+[debug] 26087635643783175544
+[debug] 0x714a63a0dba6da4f017b42d5d0fb78867f18bcde904868e51d951a5a6f5b7f57::i32::I32 {
+  bits: 6931
+}
+[ PASS    ] 0x0::movescription_to_amm::test_price_to_sqrt_price_x64_float
+[ PASS    ] 0x0::movescription_object_test::test_lock_and_split
+[ PASS    ] 0x0::movescription_object_test::test_merge
+[debug] 12124436137094855
+[debug] 0x714a63a0dba6da4f017b42d5d0fb78867f18bcde904868e51d951a5a6f5b7f57::i32::I32 {
+  bits: 4294820740
+}
+[debug] 304289644854
+[debug] 462962000000000
+[debug] 199999472
+[debug] true
+[ PASS    ] 0x0::movescription_to_amm::test_real_case
+[ PASS    ] 0x0::movescription_object_test::test_merge_different_movescription_failed
+[ PASS    ] 0x0::movescription_object_test::test_split_acc
+[ PASS    ] 0x0::movescription_object_test::test_split_acc2
+[debug] 304289644854
+[debug] 462962000000000
+[debug] 199999472
+[ PASS    ] 0x0::movescription_to_amm::test_real_case2
+[ PASS    ] 0x0::movescription_object_test::test_split_acc3
+[ PASS    ] 0x0::movescription_object_test::test_zero
+Test result: OK. Total tests: 51; passed: 51; failed: 0

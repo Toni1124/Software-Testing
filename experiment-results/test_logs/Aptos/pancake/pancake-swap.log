@@ -1,0 +1,71 @@
+INCLUDING DEPENDENCY AptosFramework
+INCLUDING DEPENDENCY AptosStdlib
+INCLUDING DEPENDENCY MoveStdlib
+BUILDING PancakeSwap
+Running Move unit tests
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::math::max_works
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::math::pow_works
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::math::sqrt_works
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_add
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_add_overflow
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_as_u64
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_as_u64_overflow
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_bits
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_compare
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_div
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_div_by_zero
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_du256_to_u256
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_from_u128
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_from_u64
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_ge
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_get
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_get_aborts
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_get_d
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_get_d_overflow
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_leading_zeros_u64
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_mul
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_mul_overflow
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_mul_u128
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_overflowing_add
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_overflowing_sub
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_put
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_put_d
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_put_d_overflow
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_put_overflow
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_shift_left
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_shift_right
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_split_u128
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_sub
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_sub_overflow
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_too_big_to_cast_to_u128
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::u256::test_zero
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::swap_test::swap_exact_output_doublehop
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::swap_test::test_add_liquidity
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::swap_test::test_add_liquidity_with_less_x_ratio
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::swap_test::test_add_liquidity_with_less_x_ratio_and_less_than_y_min
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::swap_test::test_add_liquidity_with_less_y_ratio
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::swap_test::test_add_liquidity_with_less_y_ratio_and_less_than_x_min
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::swap_test::test_get_amount_in
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::swap_test::test_remove_liquidity
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::swap_test::test_remove_liquidity_imbalance
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::swap_test::test_remove_liquidity_with_more_user
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::swap_test::test_swap_exact_input
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::swap_test::test_swap_exact_input_doublehop
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::swap_test::test_swap_exact_input_overflow
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::swap_test::test_swap_exact_input_quadruplehop
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::swap_test::test_swap_exact_input_triplehop
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::swap_test::test_swap_exact_input_triplehop_with_multi_liquidity
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::swap_test::test_swap_exact_input_under_min_output
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::swap_test::test_swap_exact_input_with_not_enough_liquidity
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::swap_test::test_swap_exact_output
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::swap_test::test_swap_exact_output_excceed_max_input
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::swap_test::test_swap_exact_output_quadruplehop
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::swap_test::test_swap_exact_output_triplehop
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::swap_test::test_swap_exact_output_with_not_enough_liquidity
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::swap_test::test_swap_x_to_exact_y_direct_external
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::swap_test::test_swap_x_to_exact_y_direct_external_with_less_x_in
+[ PASS    ] 0xc7efb4076dbe143cbcd98cfaaa929ecfc8f299203dfff63b95ccb6bfe19850fa::swap_test::test_swap_x_to_exact_y_direct_external_with_more_x_in
+Test result: OK. Total tests: 62; passed: 62; failed: 0
+{
+  "Result": "Success"
+}

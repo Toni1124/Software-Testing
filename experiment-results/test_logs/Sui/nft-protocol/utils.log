@@ -1,0 +1,37 @@
+INCLUDING DEPENDENCY Pseudorandom
+INCLUDING DEPENDENCY Sui
+INCLUDING DEPENDENCY MoveStdlib
+BUILDING Utils
+Running Move unit tests
+[ PASS    ] 0x859eb18bd5b5e8cc32deb6dfb1c39941008ab3c6e27f0b8ce2364be7102bb7cb::dynamic_vector::test_chunk_index
+[ PASS    ] 0x859eb18bd5b5e8cc32deb6dfb1c39941008ab3c6e27f0b8ce2364be7102bb7cb::display::test_address_to_string
+[ PASS    ] 0x859eb18bd5b5e8cc32deb6dfb1c39941008ab3c6e27f0b8ce2364be7102bb7cb::display::test_bytes_to_string
+[ TIMEOUT ] 0x859eb18bd5b5e8cc32deb6dfb1c39941008ab3c6e27f0b8ce2364be7102bb7cb::dynamic_vector::test_chunk_lengths
+[ TIMEOUT ] 0x859eb18bd5b5e8cc32deb6dfb1c39941008ab3c6e27f0b8ce2364be7102bb7cb::dynamic_vector::test_fuzzy_popping_elements
+[ TIMEOUT ] 0x859eb18bd5b5e8cc32deb6dfb1c39941008ab3c6e27f0b8ce2364be7102bb7cb::dynamic_vector::test_how_many_chunks
+[ TIMEOUT ] 0x859eb18bd5b5e8cc32deb6dfb1c39941008ab3c6e27f0b8ce2364be7102bb7cb::dynamic_vector::test_orderly_popping_elements
+
+Test failures:
+
+Failures in 0x859eb18bd5b5e8cc32deb6dfb1c39941008ab3c6e27f0b8ce2364be7102bb7cb::dynamic_vector:
+
+┌── test_chunk_lengths ──────
+│ Test timed out
+└──────────────────
+
+
+┌── test_fuzzy_popping_elements ──────
+│ Test timed out
+└──────────────────
+
+
+┌── test_how_many_chunks ──────
+│ Test timed out
+└──────────────────
+
+
+┌── test_orderly_popping_elements ──────
+│ Test timed out
+└──────────────────
+
+Test result: FAILED. Total tests: 7; passed: 3; failed: 4

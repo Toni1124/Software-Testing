@@ -1,0 +1,124 @@
+INCLUDING DEPENDENCY AptosFramework
+INCLUDING DEPENDENCY AptosStdlib
+INCLUDING DEPENDENCY MoveStdlib
+INCLUDING DEPENDENCY PancakePhantomTypes
+BUILDING PancakeSmartChef
+Running Move unit tests
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_add
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_add_overflow
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_as_u64
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_as_u64_overflow
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_bits
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_compare
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_div
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_div_by_zero
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_du256_to_u256
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_from_u128
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_from_u64
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_get
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_get_aborts
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_get_d
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_get_d_overflow
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_leading_zeros_u64
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_mul
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_mul_overflow
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_overflowing_add
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_overflowing_sub
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_put
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_put_d
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_put_d_overflow
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_put_overflow
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_shift_left
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_shift_right
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_split_u128
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_sub
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_sub_overflow
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_too_big_to_cast_to_u128
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::u256::test_zero
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_add_reward
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_add_reward_after_reward_change
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_add_reward_multiple_times
+[ FAIL    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_add_reward_not_admin
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_add_reward_not_enough_balance
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_add_reward_pool_not_exist
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_create_pool
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_create_pool_already_exist
+[ FAIL    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_create_pool_not_admin
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_create_pool_pass_end_time_earlier_than_start_time
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_create_pool_pass_start_time
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_create_pool_reward_token_not_exist
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_create_pool_stake_and_reward_same_token
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_create_pool_stake_token_not_exist
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_create_pool_unreasonable_token_decimal
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_create_pool_with_limits
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_create_pool_wrong_uid
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_create_pool_zero_pool_limits
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_deposit
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_deposit_after_emergency_reward_withdraw
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_deposit_after_stop_reward
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_deposit_after_time_limit
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_deposit_after_update_pool_limit
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_deposit_no_reward
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_deposit_not_enough_balance
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_deposit_pass_end_time
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_deposit_pool_not_exist
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_emergency_reward_withdraw
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_emergency_reward_withdraw_after_stop_reward
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_emergency_reward_withdraw_after_user_withdraw
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_emergency_reward_withdraw_again
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_emergency_reward_withdraw_not_admin
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_emergency_reward_withdraw_pool_not_exist
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_emergency_withdraw
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_emergency_withdraw_again
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_emergency_withdraw_no_stake
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_emergency_withdraw_pool_not_exist
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_pool_all_in_one
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_pool_rapid_deposit_withdraw
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_set_admin
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_set_admin_not_admin
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_stop_reward
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_stop_reward_not_admin
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_stop_reward_pool_not_exist
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_update_pool_limit_false_time_limit
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_update_pool_limit_false_time_limit_twice
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_update_pool_limit_lower_than_old_limit
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_update_pool_limit_not_admin
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_update_pool_limit_pass_time_limit
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_update_pool_limit_per_user
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_update_pool_limit_pool_not_exist
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_update_reward_per_second
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_update_reward_per_second_not_admin
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_update_reward_per_second_pool_not_exist
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_update_reward_per_second_pool_started
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_update_start_and_end_timestamp
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_update_start_and_end_timestamp_end_time_earlier_than_start_time
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_update_start_and_end_timestamp_not_admin
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_update_start_and_end_timestamp_pass_start_time
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_update_start_and_end_timestamp_pool_not_exist
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_update_start_and_end_timestamp_start_time_pass
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_withdraw
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_withdraw_after_emergency_reward_withdraw
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_withdraw_after_pool_end
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_withdraw_after_stop_reward
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_withdraw_no_stake
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_withdraw_not_enough_balance
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_withdraw_partial_after_time_limit
+[ PASS    ] 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test::test_withdraw_pool_not_exist
+
+Test failures:
+
+Failures in 0xfd1d8a523f1be89277ac0787ae3469312667e3d0b3f75a5f01bfc95530a2dc91::smart_chef_test:
+
+┌── test_add_reward_not_admin ──────
+│ Test did not error as expected
+└──────────────────
+
+
+┌── test_create_pool_not_admin ──────
+│ Test did not error as expected
+└──────────────────
+
+Test result: FAILED. Total tests: 100; passed: 98; failed: 2
+{
+  "Error": "Move unit tests failed"
+}

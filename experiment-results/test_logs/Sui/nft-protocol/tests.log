@@ -1,0 +1,201 @@
+INCLUDING DEPENDENCY Critbit
+INCLUDING DEPENDENCY LiquidityLayerV1
+INCLUDING DEPENDENCY NftProtocol
+INCLUDING DEPENDENCY Allowlist
+INCLUDING DEPENDENCY Authlist
+INCLUDING DEPENDENCY Kiosk
+INCLUDING DEPENDENCY Originmate
+INCLUDING DEPENDENCY Request
+INCLUDING DEPENDENCY Permissions
+INCLUDING DEPENDENCY Utils
+INCLUDING DEPENDENCY Pseudorandom
+INCLUDING DEPENDENCY Sui
+INCLUDING DEPENDENCY MoveStdlib
+BUILDING IntegrationTests
+Running Move unit tests
+[ PASS    ] 0x0::utils_insert_vec_in_table::test_insert_vec_in_table_empty_vector
+[ PASS    ] 0x0::test_nft_bag::add_nft_bag
+[ PASS    ] 0x0::test_display::add_attributes
+[ PASS    ] 0x0::test_composable_nft::add_composition
+[ PASS    ] 0x0::misc::migrate_signer
+[ PASS    ] 0x0::test_nft_bag::add_nft_bag_twice
+[ PASS    ] 0x0::test_display::add_nft_display
+[ PASS    ] 0x0::test_composable_nft::add_composition_twice
+[ PASS    ] 0x0::utils_insert_vec_in_table::test_insert_vec_in_table_multiple_entries
+[ PASS    ] 0x0::misc::try_wrap_potato
+[ PASS    ] 0x0::test_display::add_nft_symbol
+[ PASS    ] 0x0::publisher_type::check_different_types_with_wrapper
+[ PASS    ] 0x0::utils_insert_vec_in_table::test_insert_vec_in_table_single_entry
+[ PASS    ] 0x0::quorum::test_assert_admin
+[ PASS    ] 0x0::utils_insert_vec_in_vec_set::test_insert_vec_in_vec_set_empty_vector
+[ PASS    ] 0x0::quorum::test_assert_admin_fail
+[ PASS    ] 0x0::test_nft_bag::compose_nft
+[ PASS    ] 0x0::test_display::add_nft_url
+[ PASS    ] 0x0::utils_insert_vec_in_vec_set::test_insert_vec_in_vec_set_multiple_entries
+[ PASS    ] 0x0::test_composable_nft::compose_nft
+[ PASS    ] 0x0::utils_insert_vec_in_vec_set::test_insert_vec_in_vec_set_single_entry
+[ PASS    ] 0x0::quorum::test_assert_delegate
+[ PASS    ] 0x0::utils_insert_vec_in_vec_set::test_insert_vec_in_vec_set_with_duplicates
+[ PASS    ] 0x0::orderbook_v1::create_exclusive_orderbook_as_originbyte_collection
+[ PASS    ] 0x0::utils_sum_vector::test_sum_vector_empty_vector
+[ PASS    ] 0x0::utils_sum_vector::test_sum_vector_multiple_entries
+[ PASS    ] 0x0::quorum::test_assert_delegate_fail
+[ PASS    ] 0x0::utils_sum_vector::test_sum_vector_overflow
+[ PASS    ] 0x0::utils_sum_vector::test_sum_vector_single_entry
+[ PASS    ] 0x0::utils_table_vec_from_vec::test_table_vec_from_vec_empty_vector
+[ PASS    ] 0x0::quorum::test_assert_member
+[ PASS    ] 0x0::quorum::test_assert_member_fail
+[ PASS    ] 0x0::quorum::test_assert_member_or_admin
+[ PASS    ] 0x0::quorum::test_assert_member_or_admin_fail
+[ PASS    ] 0x0::utils_vec_set_from_vec::test_vec_set_from_vec_empty_vector
+[ PASS    ] 0x0::utils_table_vec_from_vec::test_table_vec_from_vec_multiple_entries
+[ PASS    ] 0x0::test_composable_nft::compose_nft_with_collection_schema
+[ PASS    ] 0x0::utils_vec_set_from_vec::test_vec_set_from_vec_multiple_entries
+[ PASS    ] 0x0::utils_table_vec_from_vec::test_table_vec_from_vec_single_entry
+[ PASS    ] 0x0::utils_vec_set_from_vec::test_vec_set_from_vec_single_entry
+[ PASS    ] 0x0::test_nft_bag::decompose_nft
+[ PASS    ] 0x0::orderbook_v1::create_non_exclusive_orderbook_as_non_originbyte_collection
+[ PASS    ] 0x0::utils_vec_set_from_vec::test_vec_set_from_vec_with_duplicates
+[ PASS    ] 0x0::test_frozen_publisher::create_collection_display_with_frozen_pub
+[ PASS    ] 0x0::test_table_from_vec_map::test_table_from_vec_map_empty_vector
+[ PASS    ] 0x0::vec_map_entries::test_vec_map_entries_empty_map
+[ PASS    ] 0x0::test_nft_bag::try_borrow_composed_nft
+[ PASS    ] 0x0::test_nft_bag::try_borrow_composed_nft_mut
+[ PASS    ] 0x0::test_composable_nft::compose_nft_with_nft_schema
+[ PASS    ] 0x0::test_nft_bag::try_borrow_nft_bag
+[ PASS    ] 0x0::test_nft_bag::try_borrow_nft_bag_mut
+[ PASS    ] 0x0::test_nft_bag::try_decompose_invalid_authority
+[ PASS    ] 0x0::test_table_from_vec_map::test_table_from_vec_map_multiple_entries
+[ PASS    ] 0x0::test_nft_bag::try_decompose_invalid_type
+[ PASS    ] 0x0::test_composable_nft::decompose_nft
+[ PASS    ] 0x0::test_nft_bag::try_decompose_undefined
+[ PASS    ] 0x0::test_frozen_publisher::create_mint_cap_display_with_frozen_pub
+[ PASS    ] 0x0::test_table_from_vec_map::test_table_from_vec_map_single_entry
+[ PASS    ] 0x0::test_bidding_v1::fail_accept_bid_if_not_seller
+[ PASS    ] 0x0::test_nft_bag::try_delete_nft_bag
+[ PASS    ] 0x0::test_mint_event::test_events
+[ PASS    ] 0x0::test_nft_bag::try_remove_nft_bag
+[ PASS    ] 0x0::test_mint_event::try_burn
+[ PASS    ] 0x0::utils_from_vec_to_map::test_from_vec_to_map_empty_vectors
+[ PASS    ] 0x0::utils_from_vec_to_map::test_from_vec_to_map_mismatched_key_value_len
+[ PASS    ] 0x0::test_composable_nft::decompose_nft_with_collection_schema
+[ PASS    ] 0x0::orderbook_v1::delegate_to_admin
+[ PASS    ] 0x0::test_ob_kiosk::test_kiosk_deposit
+[ PASS    ] 0x0::utils_from_vec_to_map::test_from_vec_to_map_multiple_entries
+[ PASS    ] 0x0::test_tags::add_nft_tags
+[ PASS    ] 0x0::test_composable_nft::decompose_nft_with_nft_schema
+[ PASS    ] 0x0::test_composable_nft::new_composition
+[ PASS    ] 0x0::test_royalty::add_royalty
+[ PASS    ] 0x0::test_composable_nft::try_borrow_composition
+[ PASS    ] 0x0::utils_from_vec_to_map::test_from_vec_to_map_non_contiguous_keys
+[ PASS    ] 0x0::test_ob_kiosk::test_kiosk_deposit_other_than_owner
+[ PASS    ] 0x0::test_composable_nft::try_borrow_composition_mut
+[ PASS    ] 0x0::utils_from_vec_to_map::test_from_vec_to_map_single_entry
+[ PASS    ] 0x0::test_composable_svg::add_svg
+[ PASS    ] 0x0::test_creators::add_attribution
+[ PASS    ] 0x0::test_composable_nft::try_compose_nft_limit
+[ PASS    ] 0x0::orderbook_v1::enable_trading_permissionless
+[ PASS    ] 0x0::test_composable_svg::add_svg_twice
+[ PASS    ] 0x0::test_composable_nft::try_compose_nft_undefined
+[ PASS    ] 0x0::test_composable_svg::deregister_nft
+[ PASS    ] 0x0::test_composable_svg::register_nft
+[ PASS    ] 0x0::test_composable_nft::try_decompose_nft_undefined
+[ PASS    ] 0x0::test_composable_nft::try_new_composition
+[ PASS    ] 0x0::test_composable_nft::try_remove_composition
+[ PASS    ] 0x0::test_bidding_v1::test_successfull_bid
+[ PASS    ] 0x0::orderbook_v1::fail_create_exclusive_orderbook_as_non_originbyte_collection
+[ PASS    ] 0x0::test_composable_svg::render_nft
+[ PASS    ] 0x0::test_ob_kiosk::test_kiosk_exclusive_transfer_auth_as_entity
+[ PASS    ] 0x0::test_composable_svg::try_borrow_svg
+[ PASS    ] 0x0::test_composable_svg::try_borrow_svg_mut
+[ PASS    ] 0x0::orderbook_v1::fail_create_non_exclusive_orderbook_as_originbyte_collection
+[ PASS    ] 0x0::test_composable_svg::try_deregister_nft_undefined
+[ PASS    ] 0x0::test_composable_svg::try_remove_svg
+[ PASS    ] 0x0::test_ob_kiosk::test_kiosk_fail_list_after_exclusive
+[ PASS    ] 0x0::orderbook_v1::fail_enable_trading_permissionless
+[ PASS    ] 0x0::test_composable_svg::try_render_nft_incomplete
+[ PASS    ] 0x0::test_ob_kiosk::test_kiosk_fail_permissioned_deposits
+[ PASS    ] 0x0::test_composable_svg::try_render_nft_twice
+[ PASS    ] 0x0::test_ob_kiosk::test_kiosk_fail_transfer_signed_as_unauth_address
+[ PASS    ] 0x0::orderbook_v1::test_bidding_orderbook_dangling_lock
+[ PASS    ] 0x0::test_ob_kiosk::test_kiosk_fail_transfer_without_auth_as_entity
+[ PASS    ] 0x0::test_ob_kiosk::test_kiosk_fail_try_to_list_exclusive_twice
+[ PASS    ] 0x0::test_ob_kiosk::test_kiosk_fail_withdraw_as_unauth_address
+[ PASS    ] 0x0::test_ob_kiosk::test_kiosk_new
+[ PASS    ] 0x0::test_ob_kiosk::test_kiosk_new_permissionless
+[ PASS    ] 0x0::test_ob_kiosk::test_kiosk_transfer_auth_as_entity
+[ PASS    ] 0x0::test_ob_kiosk::test_kiosk_transfer_signed_as_auth_address
+[ PASS    ] 0x0::test_ob_kiosk::test_kiosk_transfer_signed_as_owner
+[ PASS    ] 0x0::test_ob_kiosk::test_kiosk_withdraw_as_auth_address
+[ PASS    ] 0x0::test_ob_kiosk::test_kiosk_withdraw_as_auth_entity
+[ PASS    ] 0x0::test_ob_kiosk::test_kiosk_withdraw_as_owner
+[ PASS    ] 0x0::test_ob_kiosk::test_kiosk_withdraw_as_unauth_entity
+[ PASS    ] 0x0::test_ob_kiosk::test_p2p_tranfer
+[ PASS    ] 0x0::test_ob_kiosk::test_p2p_tranfer_in_new_kiosk
+[ PASS    ] 0x0::test_ob_kiosk::test_permissionless_to_permissioned
+[ PASS    ] 0x0::test_ob_kiosk::test_try_permissionless_to_permissioned
+[ TIMEOUT ] 0x0::vec_map_entries::test_vec_map_entries_large_map
+[ PASS    ] 0x0::vec_map_entries::test_vec_map_entries_multiple_entries
+[ PASS    ] 0x0::vec_map_entries::test_vec_map_entries_non_contiguous_keys
+[ PASS    ] 0x0::vec_map_entries::test_vec_map_entries_single_entry
+[ PASS    ] 0x0::orderbook_depth_v1::test_cancel_asks_with_depth
+[ PASS    ] 0x0::orderbook_depth_v1::test_cancel_bids_with_depth
+[ PASS    ] 0x0::orderbook_v1::test_cancel_asks
+[ TIMEOUT ] 0x0::orderbook_depth_v1::test_edit_asks
+[ PASS    ] 0x0::orderbook_v1::test_cancel_bids
+[ PASS    ] 0x0::orderbook_depth_v1::test_limit_ask_insert_and_popping_with_market_buy_with_depth
+[ PASS    ] 0x0::orderbook_depth_v1::test_limit_bid_insert_and_popping_with_market_sell_with_depth
+[ TIMEOUT ] 0x0::orderbook_v1::test_edit_asks
+[ PASS    ] 0x0::orderbook_v1::test_edit_bids
+[ TIMEOUT ] 0x0::orderbook_v1::test_limit_ask_insert_and_popping_with_limit_buy
+[ TIMEOUT ] 0x0::orderbook_v1::test_limit_ask_insert_and_popping_with_market_buy
+[ TIMEOUT ] 0x0::orderbook_v1::test_limit_bid_and_limit_sell_inserts
+[ TIMEOUT ] 0x0::orderbook_v1::test_limit_bid_insert_and_popping_with_market_sell
+[ PASS    ] 0x0::orderbook_v1::test_trade_from_sui_kiosk
+[ PASS    ] 0x0::orderbook_v1::test_trade_in_ob_kiosk
+[ PASS    ] 0x0::orderbook_v1::test_trade_in_ob_kiosk_full_royalty_enforcement
+[ PASS    ] 0x0::orderbook_v1::test_trade_in_ob_kiosk_full_royalty_enforcement_and_commissions
+[ PASS    ] 0x0::orderbook_v1::test_trade_with_commission
+[ PASS    ] 0x0::orderbook_v1::test_trade_with_sui_policy
+
+Test failures:
+
+Failures in 0x0::orderbook_depth_v1:
+
+┌── test_edit_asks ──────
+│ Test timed out
+└──────────────────
+
+Failures in 0x0::orderbook_v1:
+
+┌── test_edit_asks ──────
+│ Test timed out
+└──────────────────
+
+
+┌── test_limit_ask_insert_and_popping_with_limit_buy ──────
+│ Test timed out
+└──────────────────
+
+
+┌── test_limit_ask_insert_and_popping_with_market_buy ──────
+│ Test timed out
+└──────────────────
+
+
+┌── test_limit_bid_and_limit_sell_inserts ──────
+│ Test timed out
+└──────────────────
+
+
+┌── test_limit_bid_insert_and_popping_with_market_sell ──────
+│ Test timed out
+└──────────────────
+
+Failures in 0x0::vec_map_entries:
+
+┌── test_vec_map_entries_large_map ──────
+│ Test timed out
+└──────────────────
+
+Test result: FAILED. Total tests: 144; passed: 137; failed: 7

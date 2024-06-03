@@ -1,0 +1,48 @@
++-------------------------+
+| Move Coverage Summary   |
++-------------------------+
+Module ed6c6fe0732be937f4379bc0b471f0f6bfbe0e8741968009e0f01e6de3d59f32::date
+>>> % Module coverage: 17.84
+Module ed6c6fe0732be937f4379bc0b471f0f6bfbe0e8741968009e0f01e6de3d59f32::i128_type
+>>> % Module coverage: 83.43
+Module ed6c6fe0732be937f4379bc0b471f0f6bfbe0e8741968009e0f01e6de3d59f32::i64_type
+>>> % Module coverage: 83.43
+Module ed6c6fe0732be937f4379bc0b471f0f6bfbe0e8741968009e0f01e6de3d59f32::balances
+>>> % Module coverage: 0.00
+Module ed6c6fe0732be937f4379bc0b471f0f6bfbe0e8741968009e0f01e6de3d59f32::bloom_filter
+>>> % Module coverage: 93.42
+Module ed6c6fe0732be937f4379bc0b471f0f6bfbe0e8741968009e0f01e6de3d59f32::box
+>>> % Module coverage: 0.00
+Module ed6c6fe0732be937f4379bc0b471f0f6bfbe0e8741968009e0f01e6de3d59f32::crit_bit
+>>> % Module coverage: 100.00
+Module ed6c6fe0732be937f4379bc0b471f0f6bfbe0e8741968009e0f01e6de3d59f32::crit_bit_u64
+>>> % Module coverage: 100.00
+Module ed6c6fe0732be937f4379bc0b471f0f6bfbe0e8741968009e0f01e6de3d59f32::escrow
+>>> % Module coverage: 100.00
+Module ed6c6fe0732be937f4379bc0b471f0f6bfbe0e8741968009e0f01e6de3d59f32::escrow_shared
+>>> % Module coverage: 93.22
+Module ed6c6fe0732be937f4379bc0b471f0f6bfbe0e8741968009e0f01e6de3d59f32::linear_vesting
+>>> % Module coverage: 68.88
+Module ed6c6fe0732be937f4379bc0b471f0f6bfbe0e8741968009e0f01e6de3d59f32::math_u128
+>>> % Module coverage: 69.74
+Module ed6c6fe0732be937f4379bc0b471f0f6bfbe0e8741968009e0f01e6de3d59f32::math_safe_precise
+>>> % Module coverage: 0.00
+Module ed6c6fe0732be937f4379bc0b471f0f6bfbe0e8741968009e0f01e6de3d59f32::math
+>>> % Module coverage: 82.10
+Module ed6c6fe0732be937f4379bc0b471f0f6bfbe0e8741968009e0f01e6de3d59f32::vectors
+>>> % Module coverage: 81.03
+Module ed6c6fe0732be937f4379bc0b471f0f6bfbe0e8741968009e0f01e6de3d59f32::merkle_proof
+>>> % Module coverage: 25.11
+Module ed6c6fe0732be937f4379bc0b471f0f6bfbe0e8741968009e0f01e6de3d59f32::object_box
+>>> % Module coverage: 0.00
+Module ed6c6fe0732be937f4379bc0b471f0f6bfbe0e8741968009e0f01e6de3d59f32::object_vec
+>>> % Module coverage: 0.00
+Module ed6c6fe0732be937f4379bc0b471f0f6bfbe0e8741968009e0f01e6de3d59f32::quadratic_vesting
+>>> % Module coverage: 66.87
+Module ed6c6fe0732be937f4379bc0b471f0f6bfbe0e8741968009e0f01e6de3d59f32::to_string
+>>> % Module coverage: 98.78
+Module ed6c6fe0732be937f4379bc0b471f0f6bfbe0e8741968009e0f01e6de3d59f32::typed_id
+>>> % Module coverage: 0.00
++-------------------------+
+| % Move Coverage: 75.46  |
++-------------------------+

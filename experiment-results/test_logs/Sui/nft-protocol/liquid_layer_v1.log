@@ -1,0 +1,13 @@
+INCLUDING DEPENDENCY Kiosk
+INCLUDING DEPENDENCY Originmate
+INCLUDING DEPENDENCY Request
+INCLUDING DEPENDENCY Permissions
+INCLUDING DEPENDENCY Utils
+INCLUDING DEPENDENCY Pseudorandom
+INCLUDING DEPENDENCY Sui
+INCLUDING DEPENDENCY MoveStdlib
+BUILDING LiquidityLayerV1
+Running Move unit tests
+[ PASS    ] 0x4e0629fa51a62b0c1d7c7b9fc89237ec5b6f630d7798ad3f06d820afb93a995a::orderbook::test_tick_size_enforcement
+[ PASS    ] 0x4e0629fa51a62b0c1d7c7b9fc89237ec5b6f630d7798ad3f06d820afb93a995a::orderbook::test_tick_size_enforcement_with
+Test result: OK. Total tests: 2; passed: 2; failed: 0

@@ -1,0 +1,30 @@
+INCLUDING DEPENDENCY Allowlist
+INCLUDING DEPENDENCY Authlist
+INCLUDING DEPENDENCY Kiosk
+INCLUDING DEPENDENCY Originmate
+INCLUDING DEPENDENCY Request
+INCLUDING DEPENDENCY Permissions
+INCLUDING DEPENDENCY Utils
+INCLUDING DEPENDENCY Pseudorandom
+INCLUDING DEPENDENCY Sui
+INCLUDING DEPENDENCY MoveStdlib
+BUILDING NftProtocol
+Running Move unit tests
+[ PASS    ] 0xbc3df36be17f27ac98e3c839b2589db8475fa07b20657b08e8891e3aaf5ee5f9::royalty_strategy_bps::test_precision
+[ PASS    ] 0xbc3df36be17f27ac98e3c839b2589db8475fa07b20657b08e8891e3aaf5ee5f9::royalty_strategy_bps::test_precision_
+[ PASS    ] 0xbc3df36be17f27ac98e3c839b2589db8475fa07b20657b08e8891e3aaf5ee5f9::royalty_strategy_bps::test_precision_1_000_bps
+[ PASS    ] 0xbc3df36be17f27ac98e3c839b2589db8475fa07b20657b08e8891e3aaf5ee5f9::royalty_strategy_bps::test_royalties
+[ PASS    ] 0xbc3df36be17f27ac98e3c839b2589db8475fa07b20657b08e8891e3aaf5ee5f9::test_p2p::enforce_policy
+[ PASS    ] 0xbc3df36be17f27ac98e3c839b2589db8475fa07b20657b08e8891e3aaf5ee5f9::test_p2p::transfer
+[ TIMEOUT ] 0xbc3df36be17f27ac98e3c839b2589db8475fa07b20657b08e8891e3aaf5ee5f9::royalty::fuzzy_test
+[ PASS    ] 0xbc3df36be17f27ac98e3c839b2589db8475fa07b20657b08e8891e3aaf5ee5f9::royalty::test_precision
+
+Test failures:
+
+Failures in 0xbc3df36be17f27ac98e3c839b2589db8475fa07b20657b08e8891e3aaf5ee5f9::royalty:
+
+┌── fuzzy_test ──────
+│ Test timed out
+└──────────────────
+
+Test result: FAILED. Total tests: 8; passed: 7; failed: 1

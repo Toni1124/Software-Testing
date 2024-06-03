@@ -1,0 +1,16 @@
++-------------------------+
+| Move Coverage Summary   |
++-------------------------+
+Module 16c5f17f2d55584a6e6daa442ccf83b4530d10546a8e7dedda9ba324e012fc40::witness
+>>> % Module coverage: 47.37
+Module 16c5f17f2d55584a6e6daa442ccf83b4530d10546a8e7dedda9ba324e012fc40::frozen_publisher
+>>> % Module coverage: 0.00
+Module 16c5f17f2d55584a6e6daa442ccf83b4530d10546a8e7dedda9ba324e012fc40::frozen_pub
+>>> % Module coverage: 0.00
+Module 16c5f17f2d55584a6e6daa442ccf83b4530d10546a8e7dedda9ba324e012fc40::permissions
+>>> % Module coverage: 0.00
+Module 16c5f17f2d55584a6e6daa442ccf83b4530d10546a8e7dedda9ba324e012fc40::quorum
+>>> % Module coverage: 46.02
++-------------------------+
+| % Move Coverage: 41.52  |
++-------------------------+

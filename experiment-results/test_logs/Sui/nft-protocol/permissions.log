@@ -1,0 +1,29 @@
+INCLUDING DEPENDENCY Utils
+INCLUDING DEPENDENCY Pseudorandom
+INCLUDING DEPENDENCY Sui
+INCLUDING DEPENDENCY MoveStdlib
+BUILDING Permissions
+Running Move unit tests
+[ PASS    ] 0x16c5f17f2d55584a6e6daa442ccf83b4530d10546a8e7dedda9ba324e012fc40::test_quorum::test_add_admin_with_extension_success
+[ PASS    ] 0x16c5f17f2d55584a6e6daa442ccf83b4530d10546a8e7dedda9ba324e012fc40::test_witness::get_dw_from_publisher
+[ PASS    ] 0x16c5f17f2d55584a6e6daa442ccf83b4530d10546a8e7dedda9ba324e012fc40::test_quorum::test_assert_admin_fail_duplicate
+[ PASS    ] 0x16c5f17f2d55584a6e6daa442ccf83b4530d10546a8e7dedda9ba324e012fc40::test_witness::get_dw_from_wit
+[ PASS    ] 0x16c5f17f2d55584a6e6daa442ccf83b4530d10546a8e7dedda9ba324e012fc40::test_quorum::test_assert_extension_token
+[ PASS    ] 0x16c5f17f2d55584a6e6daa442ccf83b4530d10546a8e7dedda9ba324e012fc40::test_witness::it_must_be_witness
+[ PASS    ] 0x16c5f17f2d55584a6e6daa442ccf83b4530d10546a8e7dedda9ba324e012fc40::test_quorum::test_assert_extension_token_fail
+[ PASS    ] 0x16c5f17f2d55584a6e6daa442ccf83b4530d10546a8e7dedda9ba324e012fc40::test_witness::it_must_same_module
+[ PASS    ] 0x16c5f17f2d55584a6e6daa442ccf83b4530d10546a8e7dedda9ba324e012fc40::test_witness::it_returns_package_module_type
+[ PASS    ] 0x16c5f17f2d55584a6e6daa442ccf83b4530d10546a8e7dedda9ba324e012fc40::test_quorum::test_create_basic
+[ PASS    ] 0x16c5f17f2d55584a6e6daa442ccf83b4530d10546a8e7dedda9ba324e012fc40::test_witness::it_works
+[ PASS    ] 0x16c5f17f2d55584a6e6daa442ccf83b4530d10546a8e7dedda9ba324e012fc40::test_quorum::test_create_for_extension
+[ PASS    ] 0x16c5f17f2d55584a6e6daa442ccf83b4530d10546a8e7dedda9ba324e012fc40::test_witness::it_works_for_another_module
+[ PASS    ] 0x16c5f17f2d55584a6e6daa442ccf83b4530d10546a8e7dedda9ba324e012fc40::test_quorum::test_init_quorum
+[ PASS    ] 0x16c5f17f2d55584a6e6daa442ccf83b4530d10546a8e7dedda9ba324e012fc40::test_quorum::test_singleton
+[ PASS    ] 0x16c5f17f2d55584a6e6daa442ccf83b4530d10546a8e7dedda9ba324e012fc40::test_quorum::test_vote_add_admin_fail
+[ PASS    ] 0x16c5f17f2d55584a6e6daa442ccf83b4530d10546a8e7dedda9ba324e012fc40::test_quorum::test_vote_add_admin_success
+[ PASS    ] 0x16c5f17f2d55584a6e6daa442ccf83b4530d10546a8e7dedda9ba324e012fc40::test_quorum::test_vote_add_delegate_fail
+[ PASS    ] 0x16c5f17f2d55584a6e6daa442ccf83b4530d10546a8e7dedda9ba324e012fc40::test_quorum::test_vote_add_delegate_success
+[ PASS    ] 0x16c5f17f2d55584a6e6daa442ccf83b4530d10546a8e7dedda9ba324e012fc40::test_quorum::test_vote_add_then_remove_admin
+[ PASS    ] 0x16c5f17f2d55584a6e6daa442ccf83b4530d10546a8e7dedda9ba324e012fc40::test_quorum::test_vote_remove_admin_remove_self
+[ PASS    ] 0x16c5f17f2d55584a6e6daa442ccf83b4530d10546a8e7dedda9ba324e012fc40::test_quorum::test_vote_remove_delegate_success
+Test result: OK. Total tests: 22; passed: 22; failed: 0

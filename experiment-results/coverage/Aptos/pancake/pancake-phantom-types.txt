@@ -1,0 +1,19 @@
+INCLUDING DEPENDENCY AptosFramework
+INCLUDING DEPENDENCY AptosStdlib
+INCLUDING DEPENDENCY MoveStdlib
+BUILDING PancakePhantomTypes
+Running Move unit tests
+[ PASS    ] 0x9936836587ca33240d3d3f91844651b16cb07802faf5e34514ed6f78580deb0a::uints::test_get_number
+Test result: OK. Total tests: 1; passed: 1; failed: 0
++-------------------------+
+| Move Coverage Summary   |
++-------------------------+
+Module 9936836587ca33240d3d3f91844651b16cb07802faf5e34514ed6f78580deb0a::uints
+>>> % Module coverage: 39.60
++-------------------------+
+| % Move Coverage: 39.60  |
++-------------------------+
+Please use `aptos move coverage -h` for more detailed source or bytecode test coverage of this package
+{
+  "Result": "Success"
+}
