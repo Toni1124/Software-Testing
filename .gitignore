@@ -1,0 +1,41 @@
+*.trace
+*/.trace
+*.mv
+*.mvsm
+
+# movescriptions
+proj/movescriptions/build/
+proj/movescriptions/Move.lock
+proj/movescriptions/.DS_Store
+proj/movescriptions/target
+
+# nft-protocol
+proj/nft-protocol/.vscode
+proj/nft-protocol/sui.log.*
+proj/nft-protocol/.env
+proj/nft-protocol/.env.caps.*
+proj/nft-protocol/.env.pubs
+proj/nft-protocol/build
+proj/nft-protocol/target
+proj/nft-protocol/output.bpl
+proj/nft-protocol/.trace
+proj/nft-protocol/boilerplate
+proj/nft-protocol/.DS_Store
+proj/nft-protocol/local
+proj/nft-protocol/unpublished
+proj/nft-protocol/bin/pub.py
+
+# pancake
+proj/pancake-contracts-move/.DS_Store
+proj/pancake-contracts-move/.aptos
+proj/pancake-contracts-move/build
+
+# seaprotocol
+proj/seaprotocol/build/
+proj/seaprotocol/.vscode/
+proj/seaprotocol/.env
+proj/seaprotocol/docs/
+proj/seaprotocol/.VSCodeCounter/
+
+# xyk-amm-move
+proj/xyk-amm-move/build/

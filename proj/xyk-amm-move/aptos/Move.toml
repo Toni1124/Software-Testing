@@ -1,0 +1,14 @@
+[package]
+name = "Aubrium"
+version = "1.0.0"
+authors = ["David Lucid <david@pentagon.xyz>"]
+
+[addresses]
+std = "0x1"
+aptos_framework = "0x1"
+aubrium = "0xfc845c20a3d7b9e8478c675f14357646782e80c916a96a0627664b6e3c87a89d"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
